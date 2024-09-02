@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 30px;
+  margin: 0 auto;
+ 
+}
+
+.heading h4 {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+  display: flex;
+  justify-items: right;
+}
+
+/* Main Section Styles */
+main {
+  padding: 20px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 100px;
+  background-color: aqua;
+}
+
+.basicinfo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.basicinfo ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+}
+
+footer div {
+  margin-bottom: 100px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column;
+  }
+
+  .nav-link {
+      margin: 10px 0;
+  }
+
+  .info .card {
+      width: 100%;
+  }
+}
+
+section{
+  display: flex;
+}
+
+#foot{
+  margin: 100px;
+  margin-left: 140;
+}
+
+.nav-item{
+  display: flex;
+  justify-items: right;
+}
+
+.card:hover{
+  @keyframes card {
+    from{
+      font-size:22rem;
+    }to{
+      font-size:30rem
+    }
+  }
+}

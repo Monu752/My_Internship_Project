@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationTooltip01" >
+          
+        </div>
+        <br>
+          <br>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationTooltip02"  >
+        </div>
+        <br>
+        <br>
+        <div class="dob">
+          <label for="dob">D.O.B.  </label>
+          <input type="date" id="dob">
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Username</label>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </div>
+        <br>
+        <br>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">State</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Uttar Pradesh</option>
+            <option>Madhye Pradesh</option>
+            <option>Aandhye Pradesh</option>
+            <option>Goa</option>
+            <option>Mumbai</option>
+          </select>
+        </div>
+        <br>
+        <br>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+</body>
+</html>
